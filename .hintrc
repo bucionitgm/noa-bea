@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "development"
+  ],
+  "ignoredUrls": [
+    {"domain": ".*", "hints": ["*"]}
+  ],
+  "browserslist": [
+    "defaults"
+  ],
+  "hintsTimeout": 120000,
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-width: fit-content"
+        ]
+      }
+    ]
+  }
+}

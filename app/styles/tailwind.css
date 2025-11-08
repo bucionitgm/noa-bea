@@ -1,0 +1,14 @@
+/**
+ * Configure Tailwind v4 in this file using CSS variables and directives:
+ * https://tailwindcss.com/docs/v4-beta#css-first-configuration
+ */
+
+@import 'tailwindcss';
+
+@theme {
+  --color-sage-light: #8a9a7b;
+  --color-sage-medium: #6b7a64;
+  --color-sage-dark: #4a5943;
+  --color-sage-darker: #3a4933;
+  --color-cream: #f5f3f0;
+}
